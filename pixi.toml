@@ -1,0 +1,15 @@
+[project]
+authors = ["Shlok Natarajan <shlok.natarajan@gmail.com>"]
+channels = ["conda-forge"]
+name = "encoder-testing"
+platforms = ["osx-arm64"]
+version = "0.1.0"
+
+[tasks]
+
+[dependencies]
+transformers = ">=4.50.0,<5"
+pytorch = ">=2.6.0,<3"
+python-dotenv = ">=1.1.0,<2"
+ipykernel = ">=6.29.5,<7"
+datasets = ">=3.4.1,<4"

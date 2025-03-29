@@ -1,0 +1,13 @@
+
+# pixi environments
+.pixi
+*.egg-info
+
+# env
+.env
+
+# cache
+__pycache__
+
+# pkl files (probably large)
+*.pkl
