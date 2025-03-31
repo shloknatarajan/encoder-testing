@@ -3,11 +3,16 @@
 .pixi
 *.egg-info
 
-# env
+# environments
 .env
+.pyenv
 
-# cache
+# python / cache
 __pycache__
+*.pyc
+*.pyo
+*.pyd
+*.pyw
 
 # pkl files (probably large)
 *.pkl
