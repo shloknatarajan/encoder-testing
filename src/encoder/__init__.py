@@ -1,0 +1,1 @@
+from .models.modernBERT import get_modernbert_embeddings

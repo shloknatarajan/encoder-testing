@@ -24,7 +24,7 @@
             "type": "debugpy",
             "request": "launch",
             "cwd": "${workspaceFolder}/src",
-            "module": "encoder.main",
+            "module": "encoder.encoder",
             "console": "integratedTerminal",
         }
     ]

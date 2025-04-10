@@ -1,0 +1,7 @@
+# About processed data
+This contains references to the performance of the model (key: model_performance: {}) as well as the responses themselves
+
+For example:
+```
+{"prompted_question":" Question: In certain abnormal conditions, the stomach does not secretehydrochloric acid. What effects might this haveon thedigestive process? Choices:  A: The absence of HCl would cause the stomach lining to produce more acid.. B: The absence of HCl would lead to the complete digestion of lipids in the stomach.. C: The absence of HCl would lead to some loss of protein digestion, less denaturation of proteins, less killing of ingested bacteria, and less pancreatic secretion.. D: The absence of HCl would increase the level of gastric enzymes.. E: The absence of HCl would lead to improved digestion of carbohydrates.. F: The absence of HCl would stimulate the liver to release more bile.. G: The absence of HCl would have no effect on the digestive process.. H: The absence of HCl would enhance the activity of gastric lipase.. I: The absence of HCl would result in more efficient absorption of nutrients.. J: The absence of HCl would increase the secretion of pancreatic juice..  Please solve this step by step, then output your answer on a new line as 'The answer is: X' where X is the letter corresponding to your choice ","answer":"C","category":"biology","model_performance":{"biology_model":0.9,"business_model":0.1,"chemistry_model":0.5,"computer_science_model":0.2,"economics_model":0.3}}
+```
