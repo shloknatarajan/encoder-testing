@@ -36,7 +36,7 @@ def get_modernbert_embeddings(queries, model_name="answerdotai/ModernBERT-base",
     model.eval()
     
     all_embeddings = []
-    logger.info(f"Generating embeddings for {len(queries)} queries")
+    logger.info(f"Generating {model_name} embeddings for {len(queries)} queries")
     # Process in batches
     for i in tqdm(range(0, len(queries), batch_size), desc="Generating embeddings"):
         batch_queries = queries[i:i+batch_size]
@@ -64,19 +64,3 @@ def get_modernbert_embeddings(queries, model_name="answerdotai/ModernBERT-base",
             all_embeddings.extend(embeddings.cpu())
     
     return all_embeddings
-
-# Example usage
-if __name__ == "__main__":
-    queries = [
-        "What is machine learning?",
-        "How do neural networks work?",
-        "Explain natural language processing",
-    ]
-    
-    embeddings = get_modernbert_embeddings(queries)
-    
-    for i, (query, embedding) in enumerate(zip(queries, embeddings)):
-        print(f"Query {i+1}: {query}")
-        print(f"Embedding shape: {embedding.shape}")
-        print(f"First 5 dimensions: {embedding[:5]}")
-        print("-" * 50)
