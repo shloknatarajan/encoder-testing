@@ -19,4 +19,8 @@ Let's focus on getting the MVP running for training and testing an encoder then 
 | Fake agent/model performance | ✅ |
 | Working MVP for getting an encoder with MLP to predict the class | |
 | Integrate with running on a server (maybe personal AWS) |  |
+| Conformal Layer | |
 | Come up with 10 possible experiments based on literature review |  |
+| Decide on model list | |
+| Dataset list | |
+| Pipeline for generating pass@k results to data for models | |

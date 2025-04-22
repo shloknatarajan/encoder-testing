@@ -2,7 +2,6 @@ from load_data.export_data import get_processed_dataset
 from encoder.models.modernBERT import get_modernbert_embeddings
 import pickle
 import argparse
-from loguru import logger
 import os
 # Note: more probably supported since we can change the name passed in
 supported_embeddings = [
